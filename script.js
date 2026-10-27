@@ -4,13 +4,13 @@
    ========================================================== */
 const PRICES = {
   treats: 10,       // Holiday Dog Treats (bag)
-  accessory: 25,    // Holiday Leash Accessory
-  bundle: 30        // Holiday Gift Bundle (treats + leash accessory)
+  accessory: 25,    // Holiday Leash Charm
+  bundle: 30        // Holiday Gift Bundle (treats + leash charm)
 };
 
 const PRODUCT_NAMES = {
   treats: "Holiday Dog Treats",
-  accessory: "Holiday Leash Accessory",
+  accessory: "Holiday Leash Charm",
   bundle: "Holiday Gift Bundle"
 };
 
