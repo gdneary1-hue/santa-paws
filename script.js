@@ -3,9 +3,9 @@
    Use a number like 8 or 7.50. Leave as null to show "Price coming soon".
    ========================================================== */
 const PRICES = {
-  treats: 6,        // Holiday Dog Treats (bag)
-  accessory: 20,    // Holiday Leash Accessory
-  bundle: null      // Holiday Gift Bundle (treats + leash accessory)
+  treats: 10,       // Holiday Dog Treats (bag)
+  accessory: 25,    // Holiday Leash Accessory
+  bundle: 30        // Holiday Gift Bundle (treats + leash accessory)
 };
 
 const PRODUCT_NAMES = {
@@ -29,6 +29,16 @@ document.querySelectorAll("[data-price]").forEach((el) => {
     el.classList.add("is-tbd");
   }
 });
+
+/* Bundle savings badge (only shows when the bundle costs less than buying both) */
+const savingsEl = document.querySelector("[data-savings]");
+if (savingsEl && hasPrice("treats") && hasPrice("accessory") && hasPrice("bundle")) {
+  const savings = PRICES.treats + PRICES.accessory - PRICES.bundle;
+  if (savings > 0) {
+    savingsEl.textContent = "Save " + (Number.isInteger(savings) ? "$" + savings : money(savings));
+    savingsEl.hidden = false;
+  }
+}
 
 /* ---------- Header: mobile menu, shadow on scroll, active link ---------- */
 const header = document.querySelector(".site-header");

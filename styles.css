@@ -294,6 +294,10 @@ a:hover { color: var(--red-dark); }
 .ingredients-safety { border: 3px solid var(--green); }
 .ingredients-safety h3 { color: var(--green); display: flex; align-items: center; gap: 8px; }
 .ingredients-safety h3 svg { width: 26px; height: 26px; fill: var(--green); flex: none; }
+.ingredient-list { list-style: none; padding: 0; margin: 0 0 1em; display: flex; flex-wrap: wrap; gap: 10px; }
+.ingredient-list li { display: flex; align-items: center; gap: 8px; padding: 8px 16px; border-radius: 999px; background: var(--tan-light); font-weight: 800; color: var(--ink); }
+.ingredient-list li::before { content: ""; width: 10px; height: 10px; border-radius: 50%; background: var(--red); }
+.savings { display: inline-block; margin-left: 6px; padding: 1px 10px; border-radius: 999px; background: var(--red); color: #fff; font-size: .85rem; font-weight: 800; vertical-align: 1px; }
 .vet-note { margin: 0; padding: 12px 14px; border-radius: 12px; background: var(--cream-2); font-size: .98rem; color: var(--ink-soft); }
 @media (max-width: 760px) { .ingredients { grid-template-columns: 1fr; } }
 
