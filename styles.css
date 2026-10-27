@@ -321,13 +321,22 @@ a:hover { color: var(--red-dark); }
 .mission p { margin: 0; }
 .mission-label { display: block; font-size: .9rem; letter-spacing: .12em; text-transform: uppercase; color: var(--green); font-weight: 600; margin-bottom: 4px; }
 .mission-paw { position: absolute; left: 26px; top: 50%; transform: translateY(-50%) rotate(-12deg); width: 50px; height: 50px; fill: var(--red); }
-.team-grid { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 22px; }
-.team-grid .member { flex: 0 1 calc((100% - 44px) / 3); }
+.team-grid { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; }
+.team-grid .member { flex: 0 1 calc((100% - 64px) / 5); padding: 20px 12px 18px; }
+.team-grid .member h3 { font-size: 1.15rem; }
+.team-grid .role { font-size: .95rem; }
+.team-grid .fun-fact { font-size: .9rem; }
+.team-grid .photo-ph--team, .team-grid .team-photo { width: min(150px, 88%); }
+.team-grid .photo-ph--team { font-size: .9rem; }
+.team-grid .photo-ph--team small { font-size: .7rem; }
+.team-grid .photo-ph--team svg { width: 30px; height: 30px; }
+.team-grid .tbd-inline { font-size: .8rem; padding: 2px 8px; }
 .member { background: var(--cream); color: var(--ink); border-radius: var(--radius); padding: 26px 18px 22px; text-align: center; box-shadow: var(--shadow); }
 .member h3 { margin-bottom: .2em; }
 .role { font-weight: 800; color: var(--green); margin-bottom: .4em; }
 .fun-fact { margin: 0; color: var(--ink-soft); font-size: .98rem; }
-@media (max-width: 960px) { .team-grid .member { flex-basis: calc((100% - 22px) / 2); } }
+@media (max-width: 1000px) { .team-grid .member { flex-basis: calc((100% - 32px) / 3); } }
+@media (max-width: 680px) { .team-grid .member { flex-basis: calc((100% - 16px) / 2); } }
 @media (max-width: 760px) {
   .about-grid { grid-template-columns: 1fr; }
   .mission { padding: 78px 22px 24px; text-align: center; font-size: 1.15rem; }
