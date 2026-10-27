@@ -336,7 +336,11 @@ a:hover { color: var(--red-dark); }
 
 /* ---------- Giving back ---------- */
 .giving { display: grid; grid-template-columns: 1.2fr 1fr; gap: 48px; align-items: center; }
-.charity-tbd { margin-top: 8px; line-height: 1.8; }
+.charity-card { margin-top: 8px; background: var(--white); border-radius: var(--radius); padding: 24px 26px; box-shadow: var(--shadow); border-left: 6px solid var(--green); text-align: left; }
+.charity-label { margin: 0 0 .2em; font-family: var(--font-display); font-weight: 600; font-size: .85rem; letter-spacing: .12em; text-transform: uppercase; color: var(--green); }
+.charity-card h3 { font-size: 1.6rem; margin-bottom: .4em; }
+.charity-card p:not(.charity-label) { color: var(--ink-soft); }
+.charity-link { display: inline-block; font-weight: 800; color: var(--red); text-decoration: underline; text-underline-offset: 3px; }
 .impact { list-style: none; padding: 0; margin: 0; display: grid; gap: 16px; }
 .impact li { display: flex; gap: 16px; align-items: center; background: var(--white); padding: 18px 20px; border-radius: var(--radius); box-shadow: var(--shadow); }
 .impact h3 { margin: 0 0 .1em; font-size: 1.2rem; }
