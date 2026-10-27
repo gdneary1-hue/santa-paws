@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Santa Paws | Handmade Holiday Dog Treats &amp; Gifts in Lincoln</title>
+  <meta name="description" content="Santa Paws makes homemade holiday dog treats and handmade leash accessories at gift-friendly prices. A student business from the Clifton Builders Program at UNL. All profits go to charity.">
+  <meta name="theme-color" content="#B71C1C">
+
+  <!-- Favicons (regenerate with: python3 make-favicons.py) -->
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Reusable icons -->
+  <svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+    <symbol id="i-paw" viewBox="0 0 64 64">
+      <ellipse cx="32" cy="43" rx="14" ry="12"/>
+      <ellipse cx="13" cy="27" rx="6" ry="8" transform="rotate(-20 13 27)"/>
+      <ellipse cx="25" cy="15" rx="6" ry="8"/>
+      <ellipse cx="39" cy="15" rx="6" ry="8"/>
+      <ellipse cx="51" cy="27" rx="6" ry="8" transform="rotate(20 51 27)"/>
+    </symbol>
+    <symbol id="i-sparkle" viewBox="0 0 24 24">
+      <path d="M12 0C13 7 17 11 24 12C17 13 13 17 12 24C11 17 7 13 0 12C7 11 11 7 12 0Z"/>
+    </symbol>
+    <symbol id="i-bone" viewBox="0 0 64 64">
+      <g transform="rotate(-35 32 32)">
+        <rect x="14" y="27" width="36" height="10" rx="4"/>
+        <circle cx="14" cy="26" r="7"/><circle cx="14" cy="38" r="7"/>
+        <circle cx="50" cy="26" r="7"/><circle cx="50" cy="38" r="7"/>
+      </g>
+    </symbol>
+    <symbol id="i-bow" viewBox="0 0 64 64">
+      <path d="M32 30 6 16v28Z M32 30l26-14v28Z M28 34l-8 24 7-3 5 6V34Z M36 34l8 24-7-3-5 6V34Z"/>
+      <circle cx="32" cy="30" r="7"/>
+    </symbol>
+    <symbol id="i-tag" viewBox="0 0 64 64">
+      <path fill-rule="evenodd" d="M6 32V8h24l28 28-24 24Z M18 20m-5 0a5 5 0 1 0 10 0a5 5 0 1 0-10 0Z"/>
+    </symbol>
+    <symbol id="i-heart" viewBox="0 0 64 64">
+      <path d="M32 57C11 42 4 32 4 21 4 13 10 7 18 7c6 0 11 3 14 9 3-6 8-9 14-9 8 0 14 6 14 14 0 11-7 21-28 36Z"/>
+    </symbol>
+    <symbol id="i-gift" viewBox="0 0 64 64">
+      <path d="M8 28h21v30H11a3 3 0 0 1-3-3Z M35 28h21v27a3 3 0 0 1-3 3H35Z M4 17h25v8H4Z M35 17h25v8H35Z M29 17h6v41h-6Z"/>
+      <path d="M32 17c-4-8-14-12-16-6s9 6 16 6Zm0 0c4-8 14-12 16-6s-9 6-16 6Z"/>
+    </symbol>
+    <symbol id="i-whisk" viewBox="0 0 64 64">
+      <path d="M10 54 26 38l4 4-16 16a3 3 0 0 1-4-4Z"/>
+      <path d="M30 34C22 18 34 4 48 8s16 18 0 22-14-4-14-4l-4 4Z" opacity=".9"/>
+    </symbol>
+    <symbol id="i-box" viewBox="0 0 64 64">
+      <path d="M32 4 58 16v32L32 60 6 48V16Z M32 30 12 20v24l20 10Z" fill-rule="evenodd"/>
+    </symbol>
+    <symbol id="i-check" viewBox="0 0 24 24">
+      <path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4Z"/>
+    </symbol>
+  </svg>
+
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ============ HEADER / NAV ============ -->
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a href="#home" class="brand" aria-label="Santa Paws home">
+        <img class="logo-small" src="santa-paws-logo-small.webp" alt="" width="52" height="52">
+        <span class="brand-name">Santa Paws</span>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+        <span class="visually-hidden">Menu</span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#how-its-made">How It's Made</a></li>
+          <li><a href="#team">Our Team</a></li>
+          <li><a href="#giving-back">Giving Back</a></li>
+          <li><a href="#video">Video</a></li>
+          <li><a href="#order" class="nav-cta">Order</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ 1. HERO ============ -->
+    <section id="home" class="hero">
+      <svg class="sparkle s1" aria-hidden="true"><use href="#i-sparkle"/></svg>
+      <svg class="sparkle s2" aria-hidden="true"><use href="#i-sparkle"/></svg>
+      <svg class="sparkle s3" aria-hidden="true"><use href="#i-sparkle"/></svg>
+      <svg class="sparkle s4" aria-hidden="true"><use href="#i-sparkle"/></svg>
+
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Now taking holiday pre-orders</p>
+          <h1>Handmade holiday joy for your best friend.</h1>
+          <p class="lead">Homemade dog treats and handmade leash accessories at gift-friendly prices, and all of our profits go to charity.</p>
+          <div class="btn-row">
+            <a href="#order" class="btn btn-primary">Pre-Order Now</a>
+            <a href="#products" class="btn btn-ghost">See Products &amp; Prices</a>
+          </div>
+          <ul class="hero-points">
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg>Baked and crafted by hand</li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg>Affordable holiday gifts</li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg>Every purchase gives back</li>
+          </ul>
+        </div>
+        <div class="hero-art">
+          <div class="logo-badge">
+            <img src="santa-paws-logo.webp" alt="Santa Paws logo: a winking golden retriever in a Santa hat peeking over a wooden sign that reads Santa Paws, decorated with pine, holly berries, and a red bow" width="800" height="800" fetchpriority="high">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 2. WHY SANTA PAWS ============ -->
+    <section id="why" class="section section-cream-2 scallop-top">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Why Santa Paws?</p>
+          <h2>Because your dog is family</h2>
+          <p>Spoiling your pup should feel good from the first wag to the last crumb.</p>
+        </div>
+        <div class="card-grid card-grid--4">
+          <article class="benefit">
+            <span class="benefit-icon"><svg aria-hidden="true"><use href="#i-bone"/></svg></span>
+            <h3>Homemade with simple ingredients</h3>
+            <p>We bake every treat ourselves, so you know exactly what your pup is enjoying.</p>
+          </article>
+          <article class="benefit">
+            <span class="benefit-icon"><svg aria-hidden="true"><use href="#i-bow"/></svg></span>
+            <h3>Handmade accessories</h3>
+            <p>Each leash accessory is made by our team to add festive cheer to every walk.</p>
+          </article>
+          <article class="benefit">
+            <span class="benefit-icon"><svg aria-hidden="true"><use href="#i-tag"/></svg></span>
+            <h3>Affordable gift prices</h3>
+            <p>A thoughtful, one-of-a-kind gift for the dog lover in your life, without stretching your holiday budget.</p>
+          </article>
+          <article class="benefit">
+            <span class="benefit-icon"><svg aria-hidden="true"><use href="#i-heart"/></svg></span>
+            <h3>Profits go to charity</h3>
+            <p>All of our profits go to charity, so every purchase spreads a little extra holiday kindness.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 3. PRODUCTS & PRICING ============ -->
+    <section id="products" class="section">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Products &amp; Pricing</p>
+          <h2>Gifts that make tails wag</h2>
+          <p>Treat your pup, or check off the dog lover on your gift list.</p>
+        </div>
+
+        <div class="card-grid card-grid--3">
+          <!-- Product 1 -->
+          <article class="product">
+            <div class="photo-ph photo-ph--product" role="img" aria-label="Photo coming soon: holiday dog treats">
+              <svg aria-hidden="true"><use href="#i-paw"/></svg>
+              <span>Photo coming soon<br><small>Holiday dog treats (1200 × 900 px)</small></span>
+            </div>
+            <div class="product-body">
+              <h3>Holiday Dog Treats</h3>
+              <p class="product-size"><span class="tbd tbd-inline">Coming soon: bag size</span></p>
+              <p>Freshly baked by hand and made to be shared. Tuck a bag into a stocking, reward a good pup, or simply make an ordinary afternoon feel like a holiday.</p>
+              <div class="product-foot">
+                <p class="price" data-price="treats"><span class="tbd tbd-inline">Price coming soon</span></p>
+                <a href="#order" class="btn btn-primary btn-sm" data-add="treats">Pre-Order</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product 2 -->
+          <article class="product">
+            <div class="photo-ph photo-ph--product" role="img" aria-label="Photo coming soon: leash accessory">
+              <svg aria-hidden="true"><use href="#i-paw"/></svg>
+              <span>Photo coming soon<br><small>Leash accessory (1200 × 900 px)</small></span>
+            </div>
+            <div class="product-body">
+              <h3>Holiday Leash Accessory</h3>
+              <p class="product-size"><span class="tbd tbd-inline">Coming soon: exact accessory item</span></p>
+              <p>A handmade, festive touch for every walk around the neighborhood. Your pup will be the most stylish dog on the block this season.</p>
+              <div class="product-foot">
+                <p class="price" data-price="accessory"><span class="tbd tbd-inline">Price coming soon</span></p>
+                <a href="#order" class="btn btn-primary btn-sm" data-add="accessory">Pre-Order</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product 3 -->
+          <article class="product product--featured">
+            <p class="ribbon">Best Gift</p>
+            <div class="photo-ph photo-ph--product" role="img" aria-label="Photo coming soon: gift bundle">
+              <svg aria-hidden="true"><use href="#i-gift"/></svg>
+              <span>Photo coming soon<br><small>Gift bundle (1200 × 900 px)</small></span>
+            </div>
+            <div class="product-body">
+              <h3>Holiday Gift Bundle</h3>
+              <p class="product-size">Treats + leash accessory</p>
+              <p>Everything they'll love in one bundle. It's the easiest gift on your list for the dog lover who already has everything.</p>
+              <div class="product-foot">
+                <p class="price" data-price="bundle"><span class="tbd tbd-inline">Price coming soon</span></p>
+                <a href="#order" class="btn btn-primary btn-sm" data-add="bundle">Pre-Order</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- 4. TREAT INGREDIENTS -->
+        <div id="ingredients" class="ingredients">
+          <div class="ingredients-list">
+            <h3>What's in our treats</h3>
+            <div class="tbd tbd-block">Coming soon: treat ingredient list</div>
+          </div>
+          <div class="ingredients-safety">
+            <h3><svg aria-hidden="true"><use href="#i-check"/></svg> Dog-safe, always</h3>
+            <p>All of our ingredients are dog-safe. Our treats <strong>never</strong> contain chocolate, xylitol, grapes, or raisins.</p>
+            <p class="vet-note">Every dog is different. If your dog has food allergies or sensitivities, please check with your veterinarian before sharing new treats.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="paw-divider" aria-hidden="true">
+      <svg><use href="#i-paw"/></svg><svg><use href="#i-paw"/></svg><svg><use href="#i-paw"/></svg>
+    </div>
+
+    <!-- ============ 5. HOW IT'S MADE ============ -->
+    <section id="how-its-made" class="section">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">How It's Made</p>
+          <h2>Made by hand, with a whole lot of heart</h2>
+          <p>No factories and no shortcuts. Just our team, our kitchen, and a love for dogs.</p>
+        </div>
+
+        <ol class="steps">
+          <li class="step">
+            <span class="step-icon"><svg aria-hidden="true"><use href="#i-whisk"/></svg></span>
+            <h3>We bake the treats</h3>
+            <p>We mix, shape, and bake every treat ourselves using ingredients we select with care.</p>
+          </li>
+          <li class="step">
+            <span class="step-icon"><svg aria-hidden="true"><use href="#i-bow"/></svg></span>
+            <h3>We craft the accessories</h3>
+            <p>We make each leash accessory by hand from materials we choose and purchase ourselves.</p>
+          </li>
+          <li class="step">
+            <span class="step-icon"><svg aria-hidden="true"><use href="#i-box"/></svg></span>
+            <h3>We package every order</h3>
+            <p>We package and brand everything ourselves, so each order looks as good as it tastes.</p>
+          </li>
+        </ol>
+
+        <div class="info-pair">
+          <div class="info-card">
+            <h3>Quality &amp; freshness</h3>
+            <div class="tbd tbd-block">Coming soon: how we keep treats fresh (for example, small batches, sealed packaging, and shelf life)</div>
+          </div>
+          <div class="info-card">
+            <h3>Getting your order</h3>
+            <div class="tbd tbd-block">Coming soon: pickup and/or delivery method, locations, and dates</div>
+          </div>
+        </div>
+
+        <div class="center-cta">
+          <a href="#order" class="btn btn-primary">Pre-Order Now</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 6. TEAM & BUILDERS PROGRAM ============ -->
+    <section id="team" class="section section-green scallop-top">
+      <div class="container">
+        <div class="section-head section-head--light">
+          <p class="eyebrow">Our Team</p>
+          <h2>Students building something good</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card">
+            <h3>The Clifton Builders Program</h3>
+            <p>The Clifton Builders Program at the University of Nebraska–Lincoln is a selective leadership and entrepreneurship program for students with high potential to build businesses, lead teams, and make a positive impact in their communities. Through hands-on projects, mentorship, and strengths-based coaching, students develop real-world leadership and business skills. The program focuses on turning ideas into action and preparing students to become successful entrepreneurs and leaders.</p>
+          </div>
+          <div class="about-card">
+            <h3>Our Builder Team Project</h3>
+            <p>Santa Paws is our Builder Team Project: a real, student-run business that we designed, built, and launched ourselves. From baking the treats to crafting the accessories and packaging every order, each step is our own, and all of our profits go to charity.</p>
+          </div>
+        </div>
+
+        <blockquote class="mission">
+          <svg class="mission-paw" aria-hidden="true"><use href="#i-paw"/></svg>
+          <p><span class="mission-label">Our Mission</span>
+          To make affordable, handmade treats and gifts that bring joy to dog lovers and their pups, while giving back to our community with every sale.</p>
+        </blockquote>
+
+        <ul class="team-grid">
+          <li class="member">
+            <div class="photo-ph photo-ph--team" role="img" aria-label="Photo coming soon: Gus Neary">
+              <svg aria-hidden="true"><use href="#i-paw"/></svg>
+              <span>Photo coming soon<br><small>Gus Neary (600 × 600 px)</small></span>
+            </div>
+            <h3>Gus Neary</h3>
+            <p class="role">Website Creator &amp; Chef</p>
+            <p class="fun-fact">Fun fact: Loves the outdoors.</p>
+          </li>
+          <li class="member">
+            <div class="photo-ph photo-ph--team" role="img" aria-label="Photo coming soon: team member 2">
+              <svg aria-hidden="true"><use href="#i-paw"/></svg>
+              <span>Photo coming soon<br><small>Team member 2 (600 × 600 px)</small></span>
+            </div>
+            <h3><span class="tbd tbd-inline">Coming soon: team member name</span></h3>
+            <p class="role"><span class="tbd tbd-inline">Coming soon: role</span></p>
+            <p class="fun-fact"><span class="tbd tbd-inline">Coming soon: fun fact</span></p>
+          </li>
+          <li class="member">
+            <div class="photo-ph photo-ph--team" role="img" aria-label="Photo coming soon: team member 3">
+              <svg aria-hidden="true"><use href="#i-paw"/></svg>
+              <span>Photo coming soon<br><small>Team member 3 (600 × 600 px)</small></span>
+            </div>
+            <h3><span class="tbd tbd-inline">Coming soon: team member name</span></h3>
+            <p class="role"><span class="tbd tbd-inline">Coming soon: role</span></p>
+            <p class="fun-fact"><span class="tbd tbd-inline">Coming soon: fun fact</span></p>
+          </li>
+          <li class="member">
+            <div class="photo-ph photo-ph--team" role="img" aria-label="Photo coming soon: team member 4">
+              <svg aria-hidden="true"><use href="#i-paw"/></svg>
+              <span>Photo coming soon<br><small>Team member 4 (600 × 600 px)</small></span>
+            </div>
+            <h3><span class="tbd tbd-inline">Coming soon: team member name</span></h3>
+            <p class="role"><span class="tbd tbd-inline">Coming soon: role</span></p>
+            <p class="fun-fact"><span class="tbd tbd-inline">Coming soon: fun fact</span></p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ 7. GIVING BACK ============ -->
+    <section id="giving-back" class="section section-cream-2">
+      <div class="container">
+        <div class="giving">
+          <div class="giving-copy">
+            <p class="eyebrow">Giving Back</p>
+            <h2>Every purchase helps</h2>
+            <p class="lead">When you treat your pup, you're helping others, too. All of our profits go to charity, so every bag of treats and every accessory makes a real difference this holiday season.</p>
+
+            <!-- TBD: Replace this box with the charity's name, 1–3 sentences on its mission,
+                 and a link like:
+                 <a href="https://charity-website.org" target="_blank" rel="noopener">Visit [Charity Name]</a> -->
+            <div class="tbd tbd-block charity-tbd">
+              <strong>Coming soon: charity name</strong><br>
+              Coming soon: 1–3 sentences about the charity's mission<br>
+              Coming soon: link to the charity's website
+            </div>
+          </div>
+
+          <ol class="impact">
+            <li><span class="impact-num">1</span><div><h3>You pre-order</h3><p>Pick a gift for your pup or a friend's.</p></div></li>
+            <li><span class="impact-num">2</span><div><h3>We bake and craft</h3><p>Every item is made by hand by our team.</p></div></li>
+            <li><span class="impact-num">3</span><div><h3>Profits give back</h3><p>All of our profits go straight to charity.</p></div></li>
+          </ol>
+        </div>
+        <div class="center-cta">
+          <a href="#order" class="btn btn-primary">Pre-Order &amp; Give Back</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 8. EXPLAINER VIDEO ============ -->
+    <section id="video" class="section">
+      <div class="container container--narrow">
+        <div class="section-head">
+          <p class="eyebrow">Video</p>
+          <h2>Meet Santa Paws in under a minute</h2>
+          <p>See who we are, what we make, and why it matters.</p>
+        </div>
+
+        <div class="video-frame">
+          <!-- ================================================================
+               PASTE YOUR VIDEO EMBED CODE HERE.
+               1. Delete the <div class="video-placeholder"> ... </div> block below.
+               2. Paste your YouTube or Powtoon <iframe> in its place.
+                  YouTube example (replace VIDEO_ID):
+                  <iframe src="https://www.youtube.com/embed/VIDEO_ID"
+                          title="Santa Paws explainer video"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen></iframe>
+               The frame keeps a 16:9 shape on every screen size automatically.
+               ================================================================ -->
+          <div class="video-placeholder tbd">
+            <span class="play" aria-hidden="true"></span>
+            <p><strong>Coming soon: our explainer video</strong><br>(30–60 seconds)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 9. PRE-ORDER FORM ============ -->
+    <section id="order" class="section section-red scallop-top">
+      <div class="container container--narrow">
+        <div class="section-head section-head--light">
+          <p class="eyebrow">Pre-Order</p>
+          <h2>Reserve your holiday treats</h2>
+          <p>It only takes a minute. We'll email you to confirm your order.</p>
+        </div>
+
+        <div class="order-card">
+          <!-- TBD: Replace YOUR_FORM_ID with your Formspree form ID (for example, https://formspree.io/f/abcdwxyz). -->
+          <form id="order-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
+            <input type="hidden" name="_subject" value="New Santa Paws pre-order">
+            <input type="hidden" name="order_summary" id="order-summary-field" value="">
+            <!-- Spam trap: real visitors never see or fill this in -->
+            <p class="visually-hidden" aria-hidden="true"><label>Leave this empty <input type="text" name="_gotcha" tabindex="-1" autocomplete="off"></label></p>
+
+            <fieldset>
+              <legend>Your details</legend>
+              <div class="field-row">
+                <div class="field">
+                  <label for="name">Name <span class="req" aria-hidden="true">*</span></label>
+                  <input id="name" name="name" type="text" autocomplete="name" required>
+                </div>
+                <div class="field">
+                  <label for="email">Email <span class="req" aria-hidden="true">*</span></label>
+                  <input id="email" name="email" type="email" autocomplete="email" required>
+                </div>
+              </div>
+              <div class="field">
+                <label for="phone">Phone <span class="optional">(optional)</span></label>
+                <input id="phone" name="phone" type="tel" autocomplete="tel">
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>Your order</legend>
+              <div class="qty-list">
+                <div class="qty-row">
+                  <label for="qty-treats">Holiday Dog Treats <span class="qty-price" data-price="treats">Price coming soon</span></label>
+                  <div class="stepper">
+                    <button type="button" class="step-btn" data-step="-1" data-target="qty-treats" aria-label="Decrease Holiday Dog Treats quantity">−</button>
+                    <input id="qty-treats" name="qty_treats" type="number" inputmode="numeric" min="0" max="50" value="0" data-product="treats">
+                    <button type="button" class="step-btn" data-step="1" data-target="qty-treats" aria-label="Increase Holiday Dog Treats quantity">+</button>
+                  </div>
+                </div>
+                <div class="qty-row">
+                  <label for="qty-accessory">Holiday Leash Accessory <span class="qty-price" data-price="accessory">Price coming soon</span></label>
+                  <div class="stepper">
+                    <button type="button" class="step-btn" data-step="-1" data-target="qty-accessory" aria-label="Decrease Holiday Leash Accessory quantity">−</button>
+                    <input id="qty-accessory" name="qty_accessory" type="number" inputmode="numeric" min="0" max="50" value="0" data-product="accessory">
+                    <button type="button" class="step-btn" data-step="1" data-target="qty-accessory" aria-label="Increase Holiday Leash Accessory quantity">+</button>
+                  </div>
+                </div>
+                <div class="qty-row">
+                  <label for="qty-bundle">Holiday Gift Bundle <span class="qty-price" data-price="bundle">Price coming soon</span></label>
+                  <div class="stepper">
+                    <button type="button" class="step-btn" data-step="-1" data-target="qty-bundle" aria-label="Decrease Holiday Gift Bundle quantity">−</button>
+                    <input id="qty-bundle" name="qty_bundle" type="number" inputmode="numeric" min="0" max="50" value="0" data-product="bundle">
+                    <button type="button" class="step-btn" data-step="1" data-target="qty-bundle" aria-label="Increase Holiday Gift Bundle quantity">+</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="total" aria-live="polite">
+                <span>Order total</span>
+                <strong id="order-total">$0.00</strong>
+              </div>
+              <p class="field-error" id="qty-error" hidden>Please add at least one item to your order.</p>
+            </fieldset>
+
+            <fieldset>
+              <legend>Pickup or delivery? <span class="req" aria-hidden="true">*</span></legend>
+              <div class="choice-row">
+                <label class="choice"><input type="radio" name="fulfillment" value="Pickup" required> <span>Pickup</span></label>
+                <label class="choice"><input type="radio" name="fulfillment" value="Delivery"> <span>Delivery</span></label>
+              </div>
+              <p class="hint"><span class="tbd tbd-inline">Coming soon: pickup/delivery details and dates</span></p>
+              <p class="field-error" id="fulfillment-error" hidden>Please choose pickup or delivery.</p>
+            </fieldset>
+
+            <div class="field">
+              <label for="notes">Notes <span class="optional">(optional)</span></label>
+              <textarea id="notes" name="notes" rows="3" placeholder="Gift message, your dog's name, delivery details, or anything else we should know"></textarea>
+            </div>
+
+            <div class="payment-note">
+              <h3>How payment works</h3>
+              <p>No payment is needed to place your pre-order.</p>
+              <div class="tbd tbd-block">Coming soon: payment method (for example, Venmo or cash at pickup)</div>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block" id="submit-btn">Place My Pre-Order</button>
+            <p class="form-status" id="form-status" role="alert" hidden></p>
+          </form>
+
+          <div class="thank-you" id="thank-you" tabindex="-1" hidden>
+            <svg class="thank-you-icon" aria-hidden="true"><use href="#i-paw"/></svg>
+            <h3>Thank you<span id="thank-you-name"></span>!</h3>
+            <p>Your pre-order is in. We'll email you soon to confirm the details. Your pup is going to love it, and your purchase is already helping a good cause.</p>
+            <p class="preview-note" id="preview-note" hidden>Preview mode: the order form isn't connected to Formspree yet, so this order was not sent.</p>
+            <button type="button" class="btn btn-ghost-light" id="order-again">Place another order</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ 10. FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img class="logo-footer" src="santa-paws-logo-small.webp" alt="Santa Paws logo" width="96" height="96" loading="lazy">
+        <div>
+          <p class="footer-name">Santa Paws</p>
+          <p class="footer-tagline">Handmade holiday joy for your best friend.</p>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h2>Explore</h2>
+        <ul>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#how-its-made">How It's Made</a></li>
+          <li><a href="#team">Our Team</a></li>
+          <li><a href="#giving-back">Giving Back</a></li>
+          <li><a href="#order">Pre-Order</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h2>Say hello</h2>
+        <!-- TBD: Replace with <a href="mailto:you@example.com">you@example.com</a> -->
+        <p><span class="tbd tbd-inline tbd-dark">Coming soon: contact email</span></p>
+        <!-- TBD: Replace with links like <a href="https://instagram.com/yourhandle" target="_blank" rel="noopener">Instagram</a> -->
+        <p><span class="tbd tbd-inline tbd-dark">Coming soon: social media links</span></p>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>A Clifton Builders Program project at the University of Nebraska–Lincoln.</p>
+      <p>© 2026 Santa Paws</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
