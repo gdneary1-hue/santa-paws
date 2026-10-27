@@ -321,18 +321,19 @@ a:hover { color: var(--red-dark); }
 .mission p { margin: 0; }
 .mission-label { display: block; font-size: .9rem; letter-spacing: .12em; text-transform: uppercase; color: var(--green); font-weight: 600; margin-bottom: 4px; }
 .mission-paw { position: absolute; left: 26px; top: 50%; transform: translateY(-50%) rotate(-12deg); width: 50px; height: 50px; fill: var(--red); }
-.team-grid { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; }
+.team-grid { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 22px; }
+.team-grid .member { flex: 0 1 calc((100% - 44px) / 3); }
 .member { background: var(--cream); color: var(--ink); border-radius: var(--radius); padding: 26px 18px 22px; text-align: center; box-shadow: var(--shadow); }
 .member h3 { margin-bottom: .2em; }
 .role { font-weight: 800; color: var(--green); margin-bottom: .4em; }
 .fun-fact { margin: 0; color: var(--ink-soft); font-size: .98rem; }
-@media (max-width: 960px) { .team-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 960px) { .team-grid .member { flex-basis: calc((100% - 22px) / 2); } }
 @media (max-width: 760px) {
   .about-grid { grid-template-columns: 1fr; }
   .mission { padding: 78px 22px 24px; text-align: center; font-size: 1.15rem; }
   .mission-paw { left: 50%; top: 18px; transform: translateX(-50%) rotate(-12deg); }
 }
-@media (max-width: 480px) { .team-grid { grid-template-columns: 1fr; max-width: 320px; margin-inline: auto; } }
+@media (max-width: 480px) { .team-grid { max-width: 320px; margin-inline: auto; } .team-grid .member { flex-basis: 100%; } }
 
 /* ---------- Giving back ---------- */
 .giving { display: grid; grid-template-columns: 1.2fr 1fr; gap: 48px; align-items: center; }
