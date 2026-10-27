@@ -21,7 +21,7 @@ To find every placeholder, search `index.html` for **"Coming soon"**.
   `<img class="product-photo" src="treats.jpg" alt="Bag of Santa Paws holiday dog treats">`
   (or `class="team-photo"` for team headshots).
 - **Formspree:** create a free form at formspree.io, then replace `YOUR_FORM_ID` in the form's `action`.
-- **Video:** follow the comment inside `<div class="video-frame">`.
+- **Video:** replace `santa-paws-video.mp4` (and `video-poster.webp`, its preview image) with a new file of the same name.
 - **External links** (charity, social media): add `target="_blank" rel="noopener"`.
 
 ## Publish free on GitHub Pages

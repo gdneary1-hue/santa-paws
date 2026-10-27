@@ -15,7 +15,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=5">
+  <link rel="stylesheet" href="styles.css?v=6">
 </head>
 <body>
   <!-- Reusable icons -->
@@ -373,26 +373,15 @@
       <div class="container container--narrow">
         <div class="section-head">
           <p class="eyebrow">Video</p>
-          <h2>Meet Santa Paws in under a minute</h2>
+          <h2>Meet Santa Paws in under two minutes</h2>
           <p>See who we are, what we make, and why it matters.</p>
         </div>
 
         <div class="video-frame">
-          <!-- ================================================================
-               PASTE YOUR VIDEO EMBED CODE HERE.
-               1. Delete the <div class="video-placeholder"> ... </div> block below.
-               2. Paste your YouTube or Powtoon <iframe> in its place.
-                  YouTube example (replace VIDEO_ID):
-                  <iframe src="https://www.youtube.com/embed/VIDEO_ID"
-                          title="Santa Paws explainer video"
-                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen></iframe>
-               The frame keeps a 16:9 shape on every screen size automatically.
-               ================================================================ -->
-          <div class="video-placeholder tbd">
-            <span class="play" aria-hidden="true"></span>
-            <p><strong>Coming soon: our explainer video</strong><br>(30–60 seconds)</p>
-          </div>
+          <video aria-label="Santa Paws explainer video" controls preload="metadata" playsinline poster="video-poster.webp">
+            <source src="santa-paws-video.mp4" type="video/mp4">
+            Your browser can't play this video. <a href="santa-paws-video.mp4">Download it here</a>.
+          </video>
         </div>
       </div>
     </section>
