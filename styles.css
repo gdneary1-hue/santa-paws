@@ -256,6 +256,15 @@ a:hover { color: var(--red-dark); }
 .photo-ph--team { aspect-ratio: 1 / 1; border-radius: 50%; width: min(200px, 80%); margin: 0 auto 16px; border-color: var(--gold); }
 /* When adding a real photo, use: <img class="product-photo" src="..." alt="..."> */
 .product-photo { aspect-ratio: 4 / 3; object-fit: cover; width: 100%; }
+.product-icon {
+  display: grid; place-items: center; height: 128px;
+  border-radius: var(--radius) var(--radius) 0 0;
+  background: radial-gradient(circle at 50% 120%, var(--tan-light), #FBEFD9 70%);
+  border-bottom: 2px dotted #E8D7B8;
+}
+.product-icon span { display: grid; place-items: center; width: 84px; height: 84px; border-radius: 50%; background: var(--white); border: 3px dashed var(--gold); box-shadow: var(--shadow); }
+.product-icon svg { width: 44px; height: 44px; fill: var(--red); }
+.product--featured .product-icon svg { fill: var(--green); }
 .team-photo { aspect-ratio: 1 / 1; object-fit: cover; border-radius: 50%; width: min(200px, 80%); margin: 0 auto 16px; border: 4px solid var(--gold); }
 
 /* Products */

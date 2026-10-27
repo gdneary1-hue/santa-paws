@@ -3,8 +3,8 @@
    Use a number like 8 or 7.50. Leave as null to show "Price coming soon".
    ========================================================== */
 const PRICES = {
-  treats: null,     // Holiday Dog Treats (bag)
-  accessory: null,  // Holiday Leash Accessory
+  treats: 6,        // Holiday Dog Treats (bag)
+  accessory: 20,    // Holiday Leash Accessory
   bundle: null      // Holiday Gift Bundle (treats + leash accessory)
 };
 
